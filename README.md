@@ -63,11 +63,14 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  - Fixed the internal server error caused by spelling mistake
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: 
+  - Fixed by returning json data in our controller
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  - Added a destroy resorces to the routes
